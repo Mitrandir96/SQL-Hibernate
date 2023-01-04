@@ -17,10 +17,4 @@ public class Controller {
     public String getPersons(String city) {
         return repository.getPersonsByCity(city).toString();
     }
-
-//    @GetMapping("/persons/createTable")
-//    public void createTable() {
-//        repository.createTable();
-//    }
-
 }
