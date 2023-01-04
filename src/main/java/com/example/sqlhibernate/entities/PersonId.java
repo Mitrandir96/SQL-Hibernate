@@ -1,8 +1,11 @@
 package com.example.sqlhibernate.entities;
 
+import lombok.NoArgsConstructor;
+
 import javax.persistence.Id;
 import java.io.Serializable;
 
+@NoArgsConstructor
 public class PersonId implements Serializable {
 
     private String name;
